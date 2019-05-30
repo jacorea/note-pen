@@ -1,20 +1,33 @@
+    
 #banner
-    .banner_content 
-        %h1 File Cabinet 
-        %p Your Life's work- Organized, always.
-        %button= link_to "Sign Up", new_user_registration_path
+	.banner_content
+		%h1 EverEverNote
+		%p Your life's Work!
+		%button= link_to "Sign Up", new_user_registration_path
+#testimonial
+	.wrapper
+		%p.quote "He listens well who takes notes."
+		%p.name - Dante 
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Journal
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
 
-#callouts 
-    .callout_inner
-        .wrapper 
-            .callout 
-            %h2 Organize 
-            %p Lorem ipsum dolor amet butcher gochujang normcore, distillery enamel pin typewriter vice cred organic af truffaut aesthetic blue bottle shaman. Slow-carb jianbing selfies heirloom chartreuse umami paleo crucifix brooklyn chia vexillologist lo-fi hashtag. Pork belly pitchfork hella aesthetic, tbh microdosing next level church-key hoodie hammock. Chicharrones yuccie palo santo, four loko meditation man braid meh quinoa. Offal ethical jianbing unicorn quinoa. Tofu poutine four dollar toast heirloom raclette cardigan before they sold out whatever fingerstache PBR&B mixtape VHS squid microdosing direct trade. Wolf squid blue bottle cray church-key four dollar toast actually jean shorts swag pug ugh.
+			.callout
+				%h2 Notes
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
 
+			.callout
+				%h2 Epic
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
 
-#bottom_cta 
-    .wrapper
-        %h2 Go Ahead! 
-        %br
-        %button= link_to "Join Now", new_user_registration_path
+#bottom_cta
+	.wrapper
+		%h2 Store All Your Notes!
+		%p Be Different, Join the Elite!
+		%button= link_to "Start Here!!!", new_user_registration_path
 
+%footer
+	%p &copy; CrashLearner
