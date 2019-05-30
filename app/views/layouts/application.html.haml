@@ -1,14 +1,14 @@
 !!!
 %html
 %head
-  %title FileCabinet | Notes for Life!
+  %title Note&Pen
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
   = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   = csrf_meta_tags
 %body
   %header
     .header_inner
-      = link_to "File Cabinet", root_path, id: "logo"
+      = link_to "Note&Pen", root_path, id: "logo"
 
       %nav
         - if user_signed_in?
